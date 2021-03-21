@@ -1,0 +1,1 @@
+run = "find -name \"*.java\" > t; javac @t ; rm t; cd Main/src; java pack.Main"
